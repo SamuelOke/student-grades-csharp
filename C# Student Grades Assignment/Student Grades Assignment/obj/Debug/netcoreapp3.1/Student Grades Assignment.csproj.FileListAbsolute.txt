@@ -1,0 +1,14 @@
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\bin\Debug\netcoreapp3.1\Student Grades Assignment.exe
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\bin\Debug\netcoreapp3.1\Student Grades Assignment.deps.json
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\bin\Debug\netcoreapp3.1\Student Grades Assignment.runtimeconfig.json
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\bin\Debug\netcoreapp3.1\Student Grades Assignment.runtimeconfig.dev.json
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\bin\Debug\netcoreapp3.1\Student Grades Assignment.dll
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\bin\Debug\netcoreapp3.1\Student Grades Assignment.pdb
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.csproj.AssemblyReference.cache
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.GeneratedMSBuildEditorConfig.editorconfig
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.AssemblyInfoInputs.cache
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.AssemblyInfo.cs
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.csproj.CoreCompileInputs.cache
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.dll
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.pdb
+F:\CS 30\C# Student Grades Assignment\Student Grades Assignment\obj\Debug\netcoreapp3.1\Student Grades Assignment.genruntimeconfig.cache
