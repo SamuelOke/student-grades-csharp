@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Collections.Generic;
 
@@ -7,6 +7,7 @@ namespace StudentGradesProject
  
     public class Program
     {
+        
         static void displayNumbers(List<int> allgrades)
         {
             for (int i = 0; i < allgrades.Count; i++)
@@ -14,12 +15,22 @@ namespace StudentGradesProject
                 Console.WriteLine(i + ") " + allgrades[i]);
             }
         }
-        static void Main(string[] args)
+        
+        static void generateGrades(List<int> anArray)
+        {
+            Random rand = new Random();
+            for (int i = 0; i < 50; i++)
+            {
+                anArray.Add(rand.Next(0, 101));
+            }
+        }
+        
+     static void Main(string[] args)
         {
             Random rand = new Random();
             int choice = 0;
-            var studentGrades = new List<int>() { rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101) };
-
+            var studentGrades = new List<int>();
+            generateGrades(studentGrades);
             do
             {
                 Console.Clear();
@@ -72,7 +83,7 @@ namespace StudentGradesProject
                         Console.WriteLine("Now randomizing. Press any key to continue...");
                         Console.ReadKey();
                         studentGrades.Clear();
-                        studentGrades = new List<int>() { rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101), rand.Next(0, 101) };
+                        generateGrades(studentGrades);
                         Console.WriteLine("Grades randomized! Listing new grades: ");
                         displayNumbers(studentGrades);
                         Console.WriteLine("Press any key to continue...");
